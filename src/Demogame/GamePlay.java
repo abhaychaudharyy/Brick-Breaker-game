@@ -106,7 +106,7 @@ public class GamePlay extends JPanel implements ActionListener, KeyListener{
 		playerX+=20;
 	}
 
-	@Override
+	
 	public void keyPressed(KeyEvent e) {
 	
 		if(e.getKeyCode()==KeyEvent.VK_LEFT) {
@@ -141,7 +141,7 @@ public class GamePlay extends JPanel implements ActionListener, KeyListener{
 		repaint();		
 	}
 
-	@Override
+	
 	public void actionPerformed(ActionEvent e)
 	{
 	  if(play)
@@ -197,9 +197,9 @@ public class GamePlay extends JPanel implements ActionListener, KeyListener{
 		
 	}
 	
-	@Override
+	
 	public void keyReleased(KeyEvent arg0) {}
 
-	@Override
+	
 	public void keyTyped(KeyEvent arg0) {}
 }
